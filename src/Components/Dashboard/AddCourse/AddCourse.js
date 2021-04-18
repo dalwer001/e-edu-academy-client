@@ -2,11 +2,11 @@ import React from 'react';
 import NavbarDashboard from '../NavbarDashboard/NavbarDashboard';
 import Sidebar from '../Sidebar/Sidebar';
 import { useState } from 'react';
-import { useHistory } from 'react-router';
+
 
 
 const AddCourse = () => {
-    const history = useHistory();
+
     const [info, setInfo] = useState({})
     const [file, setFile] = useState(null)
 
