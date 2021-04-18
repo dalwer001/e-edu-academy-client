@@ -13,7 +13,7 @@ const CourseOrder = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const { id } = useParams();
 
-const handlePaymentSuccess = paymentId => {
+const handlePaymentSuccess = (e,paymentId) => {
     const orderDetails = {
         ...loggedInUser,
         title:title,
@@ -34,6 +34,7 @@ const handlePaymentSuccess = paymentId => {
         .then(res => res.json())
         .then(data => {
             if (data) {
+                e.target.reset();
                 alert('your payment completed successfully.')
             }
         })
