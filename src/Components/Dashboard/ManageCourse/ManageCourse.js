@@ -11,20 +11,20 @@ const ManageCourse = () => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5500/courses')
+        fetch('https://safe-fjord-30428.herokuapp.com/courses')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
 
     const deleted = () => {
-        fetch('http://localhost:5500/courses')
+        fetch('https://safe-fjord-30428.herokuapp.com/courses')
             .then(res => res.json())
             .then(data => setCourses(data))
     }
 
     const handleDelete = (id) => {
 
-        fetch(`http://localhost:5500/deleteCourse/${id}`, {
+        fetch(`https://safe-fjord-30428.herokuapp.com/deleteCourse/${id}`, {
             method: "DELETE"
         })
             .then(res => res.json())
@@ -69,7 +69,7 @@ const ManageCourse = () => {
                                             {
                                                 course.image ? <img style={{ width: "8rem", height: "8rem" }} src={`data:image/png;base64,${course.image.img}`} alt="" />
                                                     :
-                                                    <img style={{ width: "8rem", height: "8rem" }} className="img-fluid mb-3" src={`http://localhost:5500/${course.img}`} alt="" />
+                                                    <img style={{ width: "8rem", height: "8rem" }} className="img-fluid mb-3" src={`https://safe-fjord-30428.herokuapp.com/${course.img}`} alt="" />
                                             }
                                         </td>
                                         <td className="w-25">

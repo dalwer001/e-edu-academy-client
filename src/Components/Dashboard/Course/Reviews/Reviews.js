@@ -18,7 +18,7 @@ const Reviews = () => {
             designation: data.designation,
             description: data.description
         }
-        fetch('http://localhost:5500/addReview', {
+        fetch('https://safe-fjord-30428.herokuapp.com/addReview', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

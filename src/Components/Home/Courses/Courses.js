@@ -11,7 +11,7 @@ import './Courses.css';
 const Courses = () => {
     const [courses, setCourses] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5500/courses')
+        fetch('https://safe-fjord-30428.herokuapp.com/courses')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])

@@ -24,7 +24,7 @@ const handlePaymentSuccess = paymentId => {
         orderTime: new Date()
     }
 
-    fetch('http://localhost:5500/addOrder', {
+    fetch('https://safe-fjord-30428.herokuapp.com/addOrder', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'
@@ -40,7 +40,7 @@ const handlePaymentSuccess = paymentId => {
 }
 
     useEffect(() => {
-        fetch(`http://localhost:5500/courseOrder/${id}`)
+        fetch(`https://safe-fjord-30428.herokuapp.com/courseOrder/${id}`)
             .then(res => res.json())
             .then(data => setCourseOrders(data));
     }, [id])

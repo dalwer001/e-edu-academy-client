@@ -16,7 +16,7 @@ const CoursesDetail = ({ course }) => {
                     {
                         course.image ? <img style={{ width: "15rem", height: "18rem" }} className="box" src={`data:image/png;base64,${course.image.img}`} alt="" />
                             :
-                            <img style={{ width: "15rem", height: "18rem" }} className="img-fluid mb-3 box" src={`http://localhost:5500/${course.img}`} alt="" />
+                            <img style={{ width: "15rem", height: "18rem" }} className="img-fluid mb-3 box" src={`https://safe-fjord-30428.herokuapp.com/${course.img}`} alt="" />
                     }
                     
                 </div>

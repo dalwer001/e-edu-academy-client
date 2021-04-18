@@ -14,7 +14,7 @@ const FeedBackShow = () => {
     const [reviews, setReviews] = useState([])
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     useEffect( () => {
-        fetch('http://localhost:5500/reviews')
+        fetch('https://safe-fjord-30428.herokuapp.com/reviews')
         .then(res => res.json())
         .then(data => setReviews(data))
     }, [])

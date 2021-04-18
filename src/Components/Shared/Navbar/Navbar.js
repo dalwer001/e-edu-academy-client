@@ -45,9 +45,6 @@ const Navbar = () => {
                         <li class="nav-item">
                             <Link class=" nav-link fw-bolder   mx-3" to="#courses" id="courses" >Our Courses</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class=" nav-link fw-bolder   mx-3" to="" >Authors</Link>
-                        </li>
                         <li className="nav-item">
                             <Link className="nav-link fw-bolder   mx-3" to="">Why Us</Link>
                         </li>

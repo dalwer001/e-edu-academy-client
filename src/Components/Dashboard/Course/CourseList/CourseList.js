@@ -17,7 +17,7 @@ const CourseList = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
     useEffect(() => {
-        fetch('http://localhost:5500/courseList?email=' + loggedInUser.email)
+        fetch('https://safe-fjord-30428.herokuapp.com/courseList?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [loggedInUser.email])

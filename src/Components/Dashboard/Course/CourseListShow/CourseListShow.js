@@ -8,7 +8,7 @@ const CourseListShow = ({ course }) => {
                     {
                         course.image ? <img style={{ width: "8rem", height: "8rem" }} src={`data:image/png;base64,${course.image.img}`} alt="" />
                             :
-                            <img style={{ width: "8rem", height: "8rem" }} className="img-fluid mb-3" src={`http://localhost:5500/${course.img}`} alt="" />
+                            <img style={{ width: "8rem", height: "8rem" }} className="img-fluid mb-3" src={`https://safe-fjord-30428.herokuapp.com/${course.img}`} alt="" />
                     }
                     <div className="alert alert-light h-50 fw-bold" role="alert">{course.status}</div>
                 </div>

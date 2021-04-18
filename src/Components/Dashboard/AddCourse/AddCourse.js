@@ -30,7 +30,7 @@ const AddCourse = () => {
         formData.append('price', info.price);
 
 
-        fetch('http://localhost:5500/addCourse', {
+        fetch('https://safe-fjord-30428.herokuapp.com/addCourse', {
             method: 'POST',
             body: formData
         })
