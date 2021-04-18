@@ -1,0 +1,13 @@
+.underline{
+    border-bottom: 2px solid rgb(112, 207, 219);
+}
+
+.img-shadow{
+    transition: 0.5s all ease-in;
+}
+
+.img-shadow:hover{
+    transform: scale(1.1);
+    border-top-left-radius: 25px;
+    box-shadow: 3px 5px 5px 3px rgb(58, 57, 57) ;
+}

@@ -1,0 +1,38 @@
+.authors{
+    background: linear-gradient(45deg, rgba(242,105,55,1) 0%,rgba(33,180,226,1) 0%,rgba(187,234,164,1) 100%);
+}
+
+.underline-author{
+    border-bottom: 2px solid rgb(212, 89, 17);
+}
+
+.authors .card {
+    border: 0;
+}
+
+.authors .card-header {
+    border: 0;
+    background-color: transparent;
+}
+
+.authors .card:hover {
+    background-image: linear-gradient(75deg, #19D3AE, #0fcfec);
+    color: rgb(255, 255, 255) !important;
+    transition: .5s all ease-in-out !important;
+    box-shadow: 5px 2px 3px rgba(163, 158, 153, 0.767);
+}
+
+.authors .card:hover .card-body {
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+.authors .card:hover h6, .authors .card:hover p {
+    font-weight: bold;
+    color: rgb(8, 8, 8) !important;
+}
+
+.authors .card:hover img {
+    display: none;
+}

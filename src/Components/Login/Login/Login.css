@@ -1,0 +1,13 @@
+.btn-google{
+    background: linear-gradient(to right, #a5d8df 0%, #e899eb 100%);
+    padding: 15px;
+    transition: .75s all ease-in-out;
+}
+
+.btn-google:hover{
+    transform: scale(1.1);
+}
+
+.btn-google img{
+    width: 20px;
+}

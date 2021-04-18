@@ -1,0 +1,7 @@
+.feedback-container{
+    height:80vh;
+    background-image:url(../../../images/feedback7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

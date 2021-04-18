@@ -1,0 +1,31 @@
+
+
+.border-gradient-green {
+    border: none;
+    background:#19D3AE;
+    padding: 15px;
+    font-weight: 600;
+    transition: .25s all ease;
+}
+
+.border-gradient-green:hover {
+    background-image: linear-gradient(75deg, #19D3AE, #0fcfec);
+    border-top-left-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.border-gradient-red {
+    border: none;
+    background: #e77518;
+    padding: 15px;
+    font-weight: 600;
+    transition: .25s all ease;
+}
+
+.border-gradient-red:hover {
+    background-image: linear-gradient(75deg, #e09353, #c55412ce);
+    border-top-left-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0 8px 6px -6px black;
+}
