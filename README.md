@@ -1,3 +1,6 @@
+![e Edu Academy](https://user-images.githubusercontent.com/75713983/116686411-9356ce80-a9d5-11eb-996a-9a6a26c64c0b.png)
+
+
 "e-Edu Academy"
  
  Live : https://e-edu-academy.web.app
@@ -12,5 +15,16 @@
 
 ==> Admin and User Intrerface of Dashboard is Different.
 
-
 ==>*Extra*-->We are showing our course author and and why we are best section
+
+
+**Front-end Thechnology :**
+React.js
+Bootstrap 5
+HTML 5
+CSS3
+**Backend Technology:**
+Node.js
+Express.js
+MongoDB
+Firebase Athuentication
